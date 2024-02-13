@@ -1,0 +1,165 @@
+/*************************************
+            Règles Générales
+ ************************************/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 1.4;
+    color: #011627;
+    background-color: #fdfffc;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Changa One', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: .75em;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    color: #e71d36;
+    text-decoration: none;
+}
+
+a:hover {
+    /*border-bottom: 2px solid #e71d36;*/
+    text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+}
+
+/*************************************
+            ENTÊTE DU SITE
+ ************************************/
+header {
+    background-color: #011627;
+    text-align: center;
+    padding: 5px 30px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.accueil {
+    display: none;
+}
+
+header ul li a {
+    padding: 5px 10px;
+    display: inline-block;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    color: #fdfffc;
+}
+
+header ul li a:hover,
+header ul li a.actif {
+    color: #2ec4b6;
+}
+
+header .personne {
+    font-size: 1.75rem;
+    line-height: 0.8;
+    color: #2ec4b6;
+    font-family: 'Changa One', sans-serif;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+header .metier {
+    margin-top: -5px;
+}
+
+/*************************************
+            FOOTER
+ ************************************/
+
+footer {
+    text-align: center;
+    padding: 50px 0 0; /* 50px en haut */
+}
+
+footer nav {
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li img {
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
+
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+
+    -webkit-transition: -webkit-filter 500ms linear;
+    transition: filter 500ms linear;
+}
+
+footer ul li img:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+/*************************************
+            PAGE ACCUEIL
+ ************************************/
+.page-accueil h1 {
+    color: yellow;
+}
+
+/*************************************
+            PAGE CONTACT
+ ************************************/
+.page-contact h1 {
+    color: red;
+}
+
+/*************************************
+            PAGE INFO
+ ************************************/
+.page-infos h1 {
+    color: aqua;
+}
